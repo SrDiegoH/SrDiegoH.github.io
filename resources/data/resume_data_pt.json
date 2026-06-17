@@ -5,7 +5,7 @@
     "birth_date": "08/07/1996",
     "phones": ["+55 (81) 9.9534-7756"],
     "emails": ["diegohenrique4222@gmail.com"],
-    "address": "Av. Guararapes, Jardim  Atlântico. Olinda - PE, Brasil. 53140-060",
+    "address": "Via Local H, 37. Paulista - PE, Brasil. 53401-085",
     "github": "https://github.com/SrDiegoH",
     "linkedin": "https://www.linkedin.com/in/diego-cardoso-011643152"
   },
@@ -35,12 +35,13 @@
       "description": "SO",
       "skills": [
         "Windows (server e desktop)",
-        "Linux (Ubuntu, Xubuntu, Mate e CentOS)"
+        "Linux (Ubuntu, Xubuntu, Mate e CentOS)",
+        "MacOS"
       ]
     },
     {
       "description": "Database",
-      "skills": ["SQL Server", "MySQL", "Postgre (+Timescale)", "Oracle"]
+      "skills": ["SQL Server", "MySQL", "PostgreSQL (+Timescale)", "Oracle", "MongoDB", "ElasticSearch", "Redis", "DynamoDB"]
     },
     {
       "description": "Paradigma",
@@ -50,7 +51,7 @@
       "description": "Plataforma",
       "skills": [
         "Desktop",
-        "Mobile (Android e Flutter)",
+        "Mobile (Android)",
         "Web",
         "Cloud Computing (AWS)"
       ]
@@ -67,7 +68,7 @@
         "VB (6 e .NET)",
         "C/C++",
         "C# (.NET)",
-        "Python ",
+        "Python",
         "Outras"
       ]
     }
@@ -114,7 +115,7 @@
         {
           "start_date": "01/03/2019",
           "end_date": "01/03/2020",
-          "office": "Analista de Software Jr",
+          "office": "Analista de Software Jr - Produtos",
           "description": "Análise, criação e manipulação de serviços web (SOAP/REST). Desenvolvimento e manutenção de sites utilizando HTML, CSS, JavaScript, JSP/JSTL, Spring Boot. Manipulação de banco de dados com SQLServer, MySQL e Oracle. Manipulação e manutenção de infraestrutura e serviços AWS."
         }
       ]
@@ -126,7 +127,7 @@
           "start_date": "01/03/2020",
           "end_date": null,
           "office": "Engenheiro de Software",
-          "description": "Análise, criação e manipulação de micro serviços e monólitos com Spring boot e NodeJs. Mensageria com SQS, SNS e Kafka. Manipulação de banco de dados com PostgreSQL. Manipulação e manutenção da infraestrutura e serviços AWS."
+          "description": "Análise, criação e manipulação de microserviços e monólitos com Spring boot, Python e NodeJs. Mensageria com SQS, SNS, RabbitMQ e Kafka. Manipulação de banco de dados com PostgreSQL, MongoDB, Elasticsearch e redis. Manipulação e manutenção da infraestrutura e serviços AWS."
         }
       ]
     }
@@ -138,6 +139,13 @@
       "start_date": "01/02/2014",
       "end_date": "01/06/2018",
       "course": "Bacharelado em Ciências da Computação"
+    },
+    {
+      "type": "MBA",
+      "educational_institution": "FullCycle",
+      "start_date": "01/12/2025",
+      "end_date": null,
+      "course": "Engenharia de Software com IA"
     }
   ],
   "courses": [
