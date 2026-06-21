@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
     <head>
         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link type='text/css' rel='stylesheet' href='./css/general.css'/>
         <link type='text/css' rel='stylesheet' href='./css/mobile.css'/>
@@ -9,8 +11,11 @@
 
         <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js'></script>
         <script type='text/javascript' src='./js/utils/utils.js'></script>
+        <script type='text/javascript' src='./js/config/app.config.js'></script>
         <script type='text/javascript' src='./js/service/parameter.service.js'></script>
         <script type='text/javascript' src='./js/service/tag.service.js'></script>
+        <script type='text/javascript' src='./js/service/data.service.js'></script>
+        <script type='text/javascript' src='./js/view/resume.view.js'></script>
         <script type='text/javascript' src='./js/service/page.loader.service.js'></script>
         <script type='text/javascript' src='./js/controller/event.controller.js'></script>
         <script type='text/javascript' src='./js/index.js'></script>
@@ -21,18 +26,18 @@
         <div id='menu' class='menu'>
             <label>
                 <img id='share_icon' class='small-icon' src='./resources/assets/share_icon.png'/>
-                <span id='share_icon_tooltip' class='tooltip'></sapn>
+                <span id='share_icon_tooltip' class='tooltip'></span>
             </label>
-            </br></br>
+            <br><br>
             <label>
                 <img id='translate_icon' class='simple-icon' src='./resources/assets/USA_icon.png'/>
-                <input id='translate_button' class='hidden-input' type='checkbox' unchecked>
+                <input id='translate_button' class='hidden-input' type='checkbox'>
             </label>
-            </br></br>
+            <br><br>
             <img id='download_icon' class='simple-icon' src='./resources/assets/download_icon.png'/>
-            </br></br>
+            <br><br>
             <img id='tags_icon' class='small-icon' src='./resources/assets/tags_icon.png'/>
-            </br></br>
+            <br><br>
             <label>
                 <img class='small-icon' src='./resources/assets/picker_icon.png'/>
                 <input id='color_picker' class='hidden-input' type='color'/>
@@ -43,27 +48,27 @@
             <div id='tags_title'></div>
             <img id='close_tags_icon' class='close-icon' src='./resources/assets/x_icon.png'/>
             <div id='tags_table'></div>
-            </br>
+            <br>
             <input id='select_all_tags' type='button'/>
         </div>
 
         <div id='resume'>
             <div class='lateral-info dynamic-color-background'>
-                <img class='profile-picture' src='./resources/assets/profile_picture.png'/></br></br></br>
-                <div id='about_me'> </div></br></br></br>
-                <div id='interests'></div></br></br></br>
-                <div id='languages'></div></br></br></br>
-                <div id='skills'>   </div></br></br></br>
+                <img class='profile-picture' src='./resources/assets/profile_picture.png'/><br><br><br>
+                <div id='about_me'> </div><br><br><br>
+                <div id='interests'></div><br><br><br>
+                <div id='languages'></div><br><br><br>
+                <div id='skills'>   </div><br><br><br>
                 <div id='technical_proficiencies'></div>
             </div>
             <div class='main-info'>
-                </br></br>
+                <br><br>
                 <div id='title'></div>
-                </br>
+                <br>
                 <div id='objective'></div>
-                </br><hr class='line-separator dynamic-color-line'></br>
+                <br><hr class='line-separator dynamic-color-line'><br>
                 <div id='experiences'></div>
-                </br><hr class='line-separator dynamic-color-line'></br>
+                <br><hr class='line-separator dynamic-color-line'><br>
                 <div id='education'></div>
             </div>
         </div>

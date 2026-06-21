@@ -72,7 +72,7 @@ class TagService {
 
             const isChecked = this.#tags[tag]? "checked" : "unchecked";
 
-            text += `<td><label><input class='tag' type='checkbox' ${isChecked} name='${tag}'>${tag}</label><td>`;
+            text += `<td><label><input class='tag' type='checkbox' ${isChecked} name='${tag}'>${tag}</label></td>`;
 
             counter++;
         }

@@ -23,6 +23,10 @@ function httpGetRequest(url){
     const httpRequest = new XMLHttpRequest();
     httpRequest.open("GET", url, false);
     httpRequest.send();
+
+    if (httpRequest.status < 200 || httpRequest.status >= 300)
+        throw new Error(`HTTP ${httpRequest.status} fetching ${url}`);
+
     return httpRequest.responseText;
 }
 

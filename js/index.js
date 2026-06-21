@@ -3,7 +3,11 @@ window.onload = () => {
 
     const tagService = new TagService(parameterService);
 
-    const pageLoaderService = new PageLoaderService(parameterService);
+    const dataService = new DataService();
+
+    const resumeView = new ResumeView(parameterService);
+
+    const pageLoaderService = new PageLoaderService(parameterService, dataService, resumeView);
 
     const eventController = new EventController(parameterService, pageLoaderService, tagService);
 
