@@ -138,6 +138,13 @@
       "start_date": "01/02/2014",
       "end_date": "01/06/2018",
       "course": "Bachelor of Computer science"
+    },
+    {
+      "type": "MBA",
+      "educational_institution": "FullCycle",
+      "start_date": "01/12/2025",
+      "end_date": null,
+      "course": "Software Engineer with AI"
     }
   ],
   "courses": [
