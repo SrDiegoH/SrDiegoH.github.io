@@ -7,12 +7,12 @@
 
     .small-icon {
         width: 55%;
-        padding-top: 20%;
+        padding-top: 0%;
     }
 
     .simple-icon {
         width: 55%;
-        padding-top: 15%;
+        padding-top: 0%;
     }
 
     .close-icon {
@@ -99,7 +99,7 @@
 
     .main-info {
         margin-left: 2%;
-        margin-right: 2%;
+        margin-right: 22%;
     }
 
     .main-info p {

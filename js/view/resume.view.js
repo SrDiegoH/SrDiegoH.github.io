@@ -50,7 +50,7 @@ class ResumeView {
         let text = `<h3>${this.#translate("SOBRE MIM")}</h3>`;
         text += `<label><img src='./resources/assets/birth_date.png'/>${aboutMe.birth_date}</label></br>`;
         text += `<label><img src='./resources/assets/zap.png'/>${aboutMe.phones}</label></br>`;
-        text += `<label class='about-me-small-text'><img src='./resources/assets/email.png'/>${aboutMe.emails}</label></br>`;
+        text += `<label class='about-me-small-text'><img src='./resources/assets/email.png'/><a href='mailto:${aboutMe.emails}'>${aboutMe.emails}</a></label></br>`;
         text += `<label class='about-me-small-text'><img class='about-me-small-icon' src='./resources/assets/local.png'/>${aboutMe.address}</label></br>`;
         text += `<label><img src='./resources/assets/github.png'/><a href='${aboutMe.github}' target='_blank'>GitHub</a></label></br>`;
         text += `<label><img src='./resources/assets/linkedin.png'/><a href='${aboutMe.linkedin}' target='_blank'>LinkedIn</a></label>`;
