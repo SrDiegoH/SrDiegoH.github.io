@@ -1,7 +1,8 @@
 window.onload = () => {
     const parameterService = new ParameterService();
 
-    const tagService = new TagService(parameterService);
+    const tagView = new TagView();
+    const tagService = new TagService(parameterService, tagView);
 
     const dataService = new DataService();
 

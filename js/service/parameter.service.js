@@ -15,7 +15,7 @@ class ParameterService {
 
     #getParameter = (key) => this.#parameters[key];
     #setParameter = (key, value) => this.#parameters[key] = value;
-    #hasParameterFilled = (key) => this.#parameters[key]? true : false;
+    #hasParameterFilled = (key) => Boolean(this.#parameters[key]);
 
     getColor = () => "#" + this.#getParameter(this.#PARAMETER_NAME.COLOR);
     setColor = (value) => this.#setParameter(this.#PARAMETER_NAME.COLOR, value.replace("#", ""));
@@ -28,9 +28,9 @@ class ParameterService {
     getTags = () => convertToArray(this.#getParameter(this.#PARAMETER_NAME.TAGS)).map(tag => tag.replace("%20", " ").toUpperCase());
     setTags = (value) => this.#setParameter(this.#PARAMETER_NAME.TAGS, value);
     #hasTagsFilled = () => this.#hasParameterFilled(this.#PARAMETER_NAME.TAGS);
-    areAllTagsCached = () => this.getTags(this.#PARAMETER_NAME.TAGS).includes(ALL_TAGS);
-    isTagInCache = (tagTarget) => this.getTags(this.#PARAMETER_NAME.TAGS).some(tag => tag === tagTarget.toUpperCase());
-    arrayHasAnyTagOnCache = (array) => this.getTags(this.#PARAMETER_NAME.TAGS).some(tag => array.includes(tag))
+    areAllTagsCached = () => this.getTags().includes(ALL_TAGS);
+    isTagInCache = (tagTarget) => this.getTags().some(tag => tag === tagTarget.toUpperCase());
+    arrayHasAnyTagOnCache = (array) => this.getTags().some(tag => array.includes(tag))
 
     #fillParametersWithUrlQuery(){
         const urlQuery = window.location.search;
@@ -38,7 +38,7 @@ class ParameterService {
         this.#parameters = urlQuery? convertQueryToJson(urlQuery) : {};
 
         if(!this.#hasColorFilled())
-            this.setColor("#329223");
+            this.setColor(AppConfig.DEFAULT_COLOR);
 
         if(!this.#hasShouldTranslateFilled())
             this.setShouldTranslate(false);

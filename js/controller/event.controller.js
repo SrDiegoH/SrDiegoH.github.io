@@ -21,12 +21,12 @@ class EventController {
         const menu = document.getElementById("menu");
 
         if(this.#isMenuOpen) {
-            menuIcon.src = `./resources/assets/%2B_icon.png`;
+            menuIcon.src = `${AppConfig.ASSETS_BASE_URL}%2B_icon.png`;
             menu.style.visibility="hidden";
 
             this.#tagService.closeTags();
         } else {
-            menuIcon.src = `./resources/assets/x_icon.png`;
+            menuIcon.src = `${AppConfig.ASSETS_BASE_URL}x_icon.png`;
             menu.style.visibility="visible";
 
             this.#loadLanguage();
@@ -54,7 +54,7 @@ class EventController {
 
     #changeTranslationOnPage(){
         const iconName = this.#parameterService.getShouldTranslate()? "BRL" : "USA";
-        document.getElementById("translate_icon").src = `./resources/assets/${iconName}_icon.png`;
+        document.getElementById("translate_icon").src = `${AppConfig.ASSETS_BASE_URL}${iconName}_icon.png`;
     }
 
     copyLinkToClipboard(){
@@ -64,7 +64,7 @@ class EventController {
 
         navigator.clipboard
                  .writeText(urlWithParameters)
-                 .then(() => this.#clipboardFallback(shareIconTooltip, "Copiado!", "#329223"),
+                 .then(() => this.#clipboardFallback(shareIconTooltip, "Copiado!", AppConfig.DEFAULT_COLOR),
                        () => this.#clipboardFallback(shareIconTooltip, "Erro!", "#F00000"));
     }
 

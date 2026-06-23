@@ -192,6 +192,16 @@ body {
     font-weight: bold;
 }
 
+.tech-desc-cell {
+    text-align: right;
+    vertical-align: top;
+}
+
+.tech-skills-cell {
+    text-align: left;
+    vertical-align: top;
+}
+
 .main-info {
     flex: 1;
 }

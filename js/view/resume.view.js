@@ -115,7 +115,7 @@ class ResumeView {
     }
 
     #buildTechnicalProficiencies(proficiency) {
-        let text = `<tr><td align='right' valign='top'><div class='technical-proficiencies-description'>${proficiency.description}</div></td><td><table>`;
+        let text = `<tr><td class='tech-desc-cell'><div class='technical-proficiencies-description'>${proficiency.description}</div></td><td><table>`;
         text += this.#buildSkills(proficiency.skills);
         text += "</table></td></tr>";
 
@@ -123,7 +123,7 @@ class ResumeView {
     }
 
     #buildSkills = (skills) => skills
-        .map(skill => `<tr><td align='left' valign='top'><div class='technical-proficiencies-skills'>${skill}</div></td></tr>`)
+        .map(skill => `<tr><td class='tech-skills-cell'><div class='technical-proficiencies-skills'>${skill}</div></td></tr>`)
         .join("");
 
     #loadObjective = (careerGoal) => {
