@@ -1,3 +1,82 @@
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .menu-icon {
+        top: 85%;
+        left: 81%;
+        width: 14%;
+    }
+
+    .small-icon {
+        width: 48%;
+        padding-top: 16%;
+    }
+
+    .simple-icon {
+        width: 48%;
+        padding-top: 12%;
+    }
+
+    .menu {
+        top: 35%;
+        left: 82%;
+    }
+
+    .tags {
+        left: 50%;
+        margin-top: 30%;
+        padding: 2% 5% 3% 5%;
+    }
+
+    .main-info {
+        margin-left: 2%;
+        margin-right: 20%;
+    }
+
+    .main-info p {
+        font-size: 70%;
+    }
+
+    .main-info h5 {
+        font-size: 72%;
+    }
+
+    #title h2 {
+        font-size: 110%;
+        margin-bottom: -1%;
+    }
+
+    #title h3 {
+        font-size: 95%;
+        margin-bottom: 7%;
+    }
+
+    #objective h3, #experiences h3, #education h3 {
+        font-size: 78%;
+    }
+
+    #experiences h4, #education h4 {
+        font-size: 75%;
+        margin-top: 6%;
+    }
+
+    #experiences h5, #education h5 {
+        margin-top: 3%;
+        margin-bottom: 0%;
+    }
+
+    #experiences p {
+        font-size: 70%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #education p {
+        text-align: left;
+        font-size: 65%;
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .menu-icon {
         top: 84%;
