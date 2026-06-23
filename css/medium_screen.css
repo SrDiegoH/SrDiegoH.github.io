@@ -22,8 +22,22 @@
 
     .tags {
         left: 50%;
-        margin-top: 30%;
+        top: 5%;
         padding: 2% 5% 3% 5%;
+    }
+
+    #tags_table table {
+        display: block;
+    }
+
+    #tags_table tr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #tags_table td {
+        width: 50%;
+        box-sizing: border-box;
     }
 
     .main-info {
@@ -113,7 +127,7 @@
 
     .tags {
         left: 50%;
-        margin-top: 20%;
+        top: 5%;
         padding: 2% 4% 3% 4%;
     }
 

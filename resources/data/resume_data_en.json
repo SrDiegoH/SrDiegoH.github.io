@@ -17,7 +17,7 @@
     },
     {
       "language": "English",
-      "level": 3
+      "level": 2
     },
     {
       "language": "Spanish",
@@ -33,15 +33,24 @@
   ],
   "technical_proficiencies": [
     {
+      "description": "AI",
+      "skills": [
+        "Claude",
+        "Cursor",
+        "Others"
+      ]
+    },
+    {
       "description": "SO",
       "skills": [
         "Windows (server and desktop)",
-        "Linux (Ubuntu, Xubuntu, Mate and CentOS)"
+        "Linux (Ubuntu, Xubuntu, Mate and CentOS)",
+        "MacOS"
       ]
     },
     {
       "description": "Database",
-      "skills": ["SQL Server", "MySQL", "Postgre (+Timescale)", "Oracle"]
+      "skills": ["SQL Server", "MySQL", "Postgre (+Timescale)", "Oracle", "MongoDB", "ElasticSearch", "Redis", "DynamoDB"]
     },
     {
       "description": "Paradigms",
