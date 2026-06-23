@@ -157,6 +157,10 @@ body {
 
 .lateral-info {
     color: #FFF;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    min-height: 100vh;
 }
 
 .lateral-info h3 {

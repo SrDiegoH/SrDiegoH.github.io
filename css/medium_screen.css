@@ -1,0 +1,153 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .menu-icon {
+        top: 84%;
+        left: 86%;
+        width: 8%;
+    }
+
+    .small-icon {
+        width: 35%;
+        padding-top: 8%;
+    }
+
+    .simple-icon {
+        width: 35%;
+        padding-top: 5%;
+    }
+
+    .close-icon {
+        width: 6%;
+        top: 2%;
+        left: 93%;
+    }
+
+    .tooltip {
+        margin-left: -60%;
+        padding: 5%;
+        text-size-adjust: 150%;
+    }
+
+    .menu {
+        top: 38%;
+        left: 87%;
+    }
+
+    .tags {
+        left: 50%;
+        margin-top: 20%;
+        padding: 2% 4% 3% 4%;
+    }
+
+    .profile-picture {
+        width: 96%;
+        padding: 2%;
+    }
+
+    .lateral-info {
+        margin-left: 10%;
+        width: 20%;
+    }
+
+    .lateral-info h3 {
+        font-size: 140%;
+    }
+
+    #about_me label {
+        padding: 3% 7%;
+    }
+
+    #about_me img {
+        width: 9%;
+        margin-right: 5%;
+    }
+
+    .about-me-small-icon {
+        height: 50%;
+    }
+
+    .about-me-small-text {
+        font-size: 70%;
+    }
+
+    #interests td {
+        padding: 5%;
+        width: 1%;
+    }
+
+    #languages td {
+        padding: 1% 5% 5% 15%;
+    }
+
+    #languages img {
+        width: 11%;
+    }
+
+    #skills td {
+        padding: 5%;
+    }
+
+    #technical_proficiencies > table {
+        padding: 0% 0% 10% 0%;
+    }
+
+    .technical-proficiencies-description {
+        margin-top: 3%;
+    }
+
+    .technical-proficiencies-skills {
+        font-size: 65%;
+    }
+
+    .main-info {
+        margin-left: 2%;
+        margin-right: 18%;
+    }
+
+    .main-info p {
+        font-size: 80%;
+    }
+
+    .main-info h5 {
+        font-size: 82%;
+    }
+
+    #title h2 {
+        font-size: 135%;
+        margin-bottom: -1%;
+    }
+
+    #title h3 {
+        font-size: 115%;
+        margin-bottom: 7%;
+    }
+
+    #objective h3, #experiences h3, #education h3 {
+        font-size: 85%;
+    }
+
+    #experiences h4, #education h4 {
+        font-size: 84%;
+    }
+
+    #experiences h4 {
+        margin-top: 6%;
+    }
+
+    #experiences h5, #education h5 {
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+
+    #experiences p {
+        font-size: 80%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #education p {
+        text-align: left;
+        font-size: 72%;
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+}
