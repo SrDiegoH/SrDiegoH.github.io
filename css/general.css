@@ -96,6 +96,25 @@ body {
     display: none;
 }
 
+/* Color picker precisa estar renderizado para o dialog abrir perto do ícone.
+   opacity:0 + position:absolute sobre o label = invisível mas posicionado corretamente. */
+#color_picker {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+}
+
+.menu label {
+    position: relative;
+}
+
 .tags {
     visibility: hidden;
     position: fixed;
