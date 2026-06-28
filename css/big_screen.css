@@ -125,7 +125,7 @@
 
     .main-info {
         margin-left: 2%;
-        margin-right: 0;
+        margin-right: 10%;
     }
 
     .main-info p {
@@ -172,7 +172,7 @@
     }
 }
 
-/* Overrides de posicionamento exclusivos para dispositivos touch (mobile/tablet).
+/* Overrides exclusivos para dispositivos touch (mobile/tablet).
    pointer: coarse = toque (dedo). pointer: fine = mouse (desktop). */
 @media screen and (min-width: 1367px) and (pointer: coarse) {
     .menu-icon {
@@ -183,5 +183,13 @@
         bottom: 30%;
         display: flex;
         flex-direction: column;
+    }
+
+    .lateral-info {
+        margin-left: 0;
+    }
+
+    .main-info {
+        margin-right: 0;
     }
 }
