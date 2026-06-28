@@ -2,7 +2,7 @@
     .menu-icon {
         top: auto;
         left: auto;
-        bottom: 15%;
+        bottom: 20%;
         right: 5%;
         width: 14%;
     }
@@ -20,8 +20,9 @@
     .menu {
         top: auto;
         left: auto;
-        bottom: 30%;
+        bottom: 35%;
         right: 5%;
+        flex-direction: column;
     }
 
     .tags {
@@ -99,7 +100,7 @@
     .menu-icon {
         top: auto;
         left: auto;
-        bottom: 15%;
+        bottom: 20%;
         right: 5%;
         width: 8%;
     }
@@ -129,8 +130,9 @@
     .menu {
         top: auto;
         left: auto;
-        bottom: 28%;
+        bottom: 33%;
         right: 5%;
+        flex-direction: column;
     }
 
     .tags {

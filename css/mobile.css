@@ -2,7 +2,7 @@
     .menu-icon {
         top: auto;
         left: auto;
-        bottom: 15%;
+        bottom: 20%;
         right: 5%;
         width: 20%;
     }
@@ -32,8 +32,9 @@
     .menu {
         top: auto;
         left: auto;
-        bottom: 32%;
+        bottom: 38%;
         right: 5%;
+        flex-direction: column;
     }
 
     .tags {

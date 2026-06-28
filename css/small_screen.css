@@ -2,7 +2,7 @@
     .menu-icon {
         top: auto;
         left: auto;
-        bottom: 15%;
+        bottom: 20%;
         right: 5%;
         width: 5%;
     }
@@ -32,8 +32,9 @@
     .menu {
         top: auto;
         left: auto;
-        bottom: 25%;
+        bottom: 30%;
         right: 5%;
+        flex-direction: column;
     }
 
     .tags {
@@ -64,7 +65,7 @@
     #about_me img {
         width: 8%;
         margin-right: 5%;
-        height: 0%;
+        height: auto;
     }
 
     .about-me-small-text {
