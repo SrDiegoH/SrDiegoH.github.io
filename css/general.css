@@ -93,7 +93,7 @@ body {
 }
 
 .hidden-input {
-    visibility: hidden;
+    display: none;
 }
 
 .tags {
