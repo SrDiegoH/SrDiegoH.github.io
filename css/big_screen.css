@@ -19,7 +19,7 @@
 
     .menu .small-icon,
     .menu .simple-icon {
-        width: 3.5vw;
+        width: 3vw;
     }
 
     .close-icon {
@@ -37,7 +37,7 @@
     .menu {
         top: auto;
         left: auto;
-        bottom: 25%;
+        bottom: 30%;
         right: 5%;
         width: 5%;
         align-items: center;
