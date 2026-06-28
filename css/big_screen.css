@@ -1,8 +1,8 @@
-@media screen and (min-width: 1367px) { 
+@media screen and (min-width: 1367px) {
     .menu-icon {
         top: auto;
         left: auto;
-        bottom: 20%;
+        bottom: 15%;
         right: 5%;
         width: 5%;
     }
@@ -37,10 +37,8 @@
     .menu {
         top: auto;
         left: auto;
-        bottom: 30%;
+        bottom: 25%;
         right: 5%;
-        display: flex;
-        flex-direction: column;
         gap: 2vw;
     }
 
@@ -106,6 +104,8 @@
 
     #skills td {
         padding: 5%;
+        overflow-wrap: break-word;
+        word-break: break-word;
     }
 
     #technical_proficiencies > table {
@@ -169,5 +169,19 @@
         font-size: 87%;
         margin-top: 1%;
         margin-bottom: 2%;
+    }
+}
+
+/* Overrides de posicionamento exclusivos para dispositivos touch (mobile/tablet).
+   pointer: coarse = toque (dedo). pointer: fine = mouse (desktop). */
+@media screen and (min-width: 1367px) and (pointer: coarse) {
+    .menu-icon {
+        bottom: 20%;
+    }
+
+    .menu {
+        bottom: 30%;
+        display: flex;
+        flex-direction: column;
     }
 }
