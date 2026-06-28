@@ -1,7 +1,9 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .menu-icon {
-        top: 85%;
-        left: 81%;
+        top: auto;
+        left: auto;
+        bottom: 15%;
+        right: 5%;
         width: 14%;
     }
 
@@ -16,8 +18,10 @@
     }
 
     .menu {
-        top: 35%;
-        left: 82%;
+        top: auto;
+        left: auto;
+        bottom: 30%;
+        right: 5%;
     }
 
     .tags {
@@ -93,8 +97,10 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .menu-icon {
-        top: 84%;
-        left: 86%;
+        top: auto;
+        left: auto;
+        bottom: 15%;
+        right: 5%;
         width: 8%;
     }
 
@@ -121,8 +127,10 @@
     }
 
     .menu {
-        top: 38%;
-        left: 87%;
+        top: auto;
+        left: auto;
+        bottom: 28%;
+        right: 5%;
     }
 
     .tags {

@@ -1,7 +1,9 @@
 @media screen and (min-width: 1367px) { 
     .menu-icon {
-        top: 83%;
-        left: 90%;
+        top: auto;
+        left: auto;
+        bottom: 15%;
+        right: 5%;
         width: 5%;
     }
 
@@ -13,6 +15,11 @@
     .simple-icon {
         width: 30%;
         padding-top: 0%;
+    }
+
+    .menu .small-icon,
+    .menu .simple-icon {
+        width: 5vw;
     }
 
     .close-icon {
@@ -28,8 +35,11 @@
     }
 
     .menu {
-        top: 41%;
-        left: 91%;
+        top: auto;
+        left: auto;
+        bottom: 25%;
+        right: 5%;
+        gap: 2vw;
     }
 
     .tags {
@@ -46,6 +56,7 @@
     .lateral-info {
         margin-left: 20%;
         width: 16%;
+        font-size: 1.17vw;
     }
 
     .lateral-info h3 {
@@ -111,12 +122,12 @@
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
-        max-width: 118px;
+        max-width: 8.6vw;
     }
 
     .main-info {
         margin-left: 2%;
-        margin-right: 10%;
+        margin-right: 0;
     }
 
     .main-info p {

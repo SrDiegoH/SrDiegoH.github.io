@@ -1,7 +1,9 @@
 @media only screen and (min-width: 1025px) and (max-width: 1366px) { 
     .menu-icon {
-        top: 83%;
-        left: 90%;
+        top: auto;
+        left: auto;
+        bottom: 15%;
+        right: 5%;
         width: 5%;
     }
 
@@ -28,8 +30,10 @@
     }
 
     .menu {
-        top: 41%;
-        left: 91%;
+        top: auto;
+        left: auto;
+        bottom: 25%;
+        right: 5%;
     }
 
     .tags {

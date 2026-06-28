@@ -80,8 +80,16 @@ body {
 
 .menu {
     visibility: hidden;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
     position: fixed;
+}
+
+.menu .small-icon,
+.menu .simple-icon {
+    width: 40px;
 }
 
 .hidden-input {
