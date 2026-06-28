@@ -49,18 +49,24 @@
     }
 
     .lateral-info h3 {
-        font-size: 140%;
+        font-size: 100%;
     }
 
     #about_me label {
         padding-left: 10%;
         padding-top: 3%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        white-space: nowrap;
+        max-width: 100%;
     }
 
     #about_me img {
         width: 10%;
         margin-right: 5%;
         height: 0%;
+        flex-shrink: 0;
     }
 
     .about-me-small-text {
@@ -80,8 +86,16 @@
         width: 11%;
     }
 
+    #skills > table {
+        table-layout: fixed;
+        width: 100%;
+    }
+
     #skills td {
         padding: 5%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     #technical_proficiencies > table {
@@ -94,11 +108,15 @@
 
     .technical-proficiencies-skills {
         font-size: 75%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 118px;
     }
 
     .main-info {
         margin-left: 2%;
-        margin-right: 30%;
+        margin-right: 10%;
     }
 
     .main-info p {
