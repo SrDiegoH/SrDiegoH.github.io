@@ -178,12 +178,12 @@
    pointer: coarse = toque (dedo). pointer: fine = mouse (desktop). */
 @media screen and (min-width: 1367px) and (pointer: coarse) {
     .menu-icon {
-        bottom: 12%;
+        bottom: 10%;
         right: 5%;
     }
 
     .menu {
-        bottom: 16%;
+        bottom: 15%;
         right: 5%;
         display: flex;
         flex-direction: column;

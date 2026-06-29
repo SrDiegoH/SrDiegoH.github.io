@@ -2,9 +2,9 @@
     .menu-icon {
         top: auto;
         left: auto;
-        bottom: 20%;
+        bottom: 10%;
         right: 5%;
-        width: 20%;
+        width: 14%;
     }
 
     .small-icon {
@@ -32,8 +32,9 @@
     .menu {
         top: auto;
         left: auto;
-        bottom: 38%;
+        bottom: 22%;
         right: 5%;
+        width: 14%;
         flex-direction: column;
     }
 

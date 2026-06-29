@@ -2,9 +2,9 @@
     .menu-icon {
         top: auto;
         left: auto;
-        bottom: 20%;
+        bottom: 8%;
         right: 5%;
-        width: 14%;
+        width: 10%;
     }
 
     .small-icon {
@@ -20,8 +20,9 @@
     .menu {
         top: auto;
         left: auto;
-        bottom: 35%;
+        bottom: 20%;
         right: 5%;
+        width: 10%;
         flex-direction: column;
     }
 
@@ -100,9 +101,9 @@
     .menu-icon {
         top: auto;
         left: auto;
-        bottom: 20%;
+        bottom: 6%;
         right: 5%;
-        width: 8%;
+        width: 6%;
     }
 
     .small-icon {
@@ -130,8 +131,9 @@
     .menu {
         top: auto;
         left: auto;
-        bottom: 33%;
+        bottom: 14%;
         right: 5%;
+        width: 6%;
         flex-direction: column;
     }
 
