@@ -11,10 +11,9 @@ class ResumeView {
         this.#changePageName(data.name);
         this.#loadTitle(data);
         this.#loadAboutMe(data.about_me);
-        this.#loadInterests(data.interests);
         this.#loadLanguages(data.languages);
-        this.#loadSkills(data.skills);
-        this.#loadTechnicalProficiencies(data.technical_proficiencies);
+        this.#loadSoftSkills(data.soft_skills);
+        this.#loadHardSkills(data.hard_skills);
         this.#loadObjective(data.career_goal);
         this.#loadExperiences(data.professional_experiences);
         this.#loadEducationsAndCourses(data);
@@ -97,33 +96,33 @@ class ResumeView {
             .map(i => `<img src='./resources/assets/star_${i <= level - 1 ? "yellow" : "white"}.png'/>`)
             .join("");
 
-    #loadSkills(skills) {
-        let text = `<h3>${this.#translate("COMPETÊNCIAS")}</h3><table>`;
-        text += skills.map(skill => `<tr><td>${skill}</td></tr>`).join("");
+    #loadSoftSkills(soft_skills) {
+        let text = `<h3>${this.#translate("HABILIDADES COMPORTAMENTAIS")}</h3><table>`;
+        text += soft_skills.map(skill => `<tr><td>${skill}</td></tr>`).join("");
         text += "</table>";
 
         document.getElementById("skills").innerHTML = text;
     }
 
-    #loadTechnicalProficiencies(technical_proficiencies) {
+    #loadHardSkills(hard_skills) {
         let text = `<h3>${this.#translate("HABILIDADES TÉCNICAS")}</h3><table>`;
-        text += technical_proficiencies.map(proficiency => this.#buildTechnicalProficiencies(proficiency))
+        text += hard_skills.map(skill => this.#buildHardSkill(skill))
                                        .join("");
         text += "</table>";
 
-        document.getElementById("technical_proficiencies").innerHTML = text;
+        document.getElementById("hard_skills").innerHTML = text;
     }
 
-    #buildTechnicalProficiencies(proficiency) {
-        let text = `<tr><td class='tech-desc-cell'><div class='technical-proficiencies-description'>${proficiency.description}</div></td><td><table>`;
-        text += this.#buildSkills(proficiency.skills);
+    #buildHardSkill(hard_skill) {
+        let text = `<tr><td class='hard-skill-desc-cell'><div class='hard-skills-description'>${hard_skill.description}</div></td><td><table>`;
+        text += this.#buildSkills(hard_skill.skills);
         text += "</table></td></tr>";
 
         return text;
     }
 
     #buildSkills = (skills) => skills
-        .map(skill => `<tr><td class='tech-skills-cell'><div class='technical-proficiencies-skills'>${skill}</div></td></tr>`)
+        .map(skill => `<tr><td class='hard-skills-cell'><div class='hard-skills'>${skill}</div></td></tr>`)
         .join("");
 
     #loadObjective = (careerGoal) => {

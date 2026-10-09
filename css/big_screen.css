@@ -99,26 +99,26 @@
         width: 11%;
     }
 
-    #skills > table {
+    #soft_skills > table {
         table-layout: fixed;
         width: 100%;
     }
 
-    #skills td {
+    #soft_skills td {
         padding: 5%;
         overflow-wrap: break-word;
         word-break: break-word;
     }
 
-    #technical_proficiencies > table {
+    #hard_skills > table {
         padding: 0% 5% 10% 5%;
     }
 
-    .technical-proficiencies-description {
+    .hard-skills-description {
         margin-top: 3%;
     }
 
-    .technical-proficiencies-skills {
+    .hard-skills {
         font-size: 75%;
         max-width: 8.6vw;
         overflow-wrap: break-word;

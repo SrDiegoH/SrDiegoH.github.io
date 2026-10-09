@@ -225,20 +225,20 @@ body {
     vertical-align: text-bottom;
 }
 
-#skills td {
+#soft_skills td {
     text-align: center;
 }
 
-.technical-proficiencies-description {
+.hard-skills-description {
     font-weight: bold;
 }
 
-.tech-desc-cell {
+.hard-skill-desc-cell {
     text-align: right;
     vertical-align: top;
 }
 
-.tech-skills-cell {
+.hard-skills-cell {
     text-align: left;
     vertical-align: top;
 }

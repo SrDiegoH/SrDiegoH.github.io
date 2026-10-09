@@ -35,7 +35,7 @@
   "hard_skills": [
     {
       "description": "IA",
-      "skills": [
+      "items": [
         "Claude",
         "Cursor",
         "Outros harness",
@@ -49,15 +49,15 @@
     },
     {
       "description": "DB",
-      "skills": ["SQL Server", "MySQL", "PostgreSQL (+Timescale)", "Oracle", "MongoDB", "ElasticSearch", "Redis", "DynamoDB"]
+      "items": ["SQL Server", "MySQL", "PostgreSQL (+Timescale)", "Oracle", "MongoDB", "ElasticSearch", "Redis", "DynamoDB"]
     },
     {
       "description": "Paradigma",
-      "skills": ["Imperativa/Estruturada", "POO", "Funcional", "Outros"]
+      "items": ["Imperativa/Estruturada", "POO", "Funcional", "Outros"]
     },
     {
       "description": "Plataforma",
-      "skills": [
+      "items": [
         "Desktop",
         "Mobile (Android)",
         "Web",
@@ -66,7 +66,7 @@
     },
     {
       "description": "FrameWorks e ferramentas",
-      "skills": [
+      "items": [
         "Spring",
         "JUnit",
         "Hibernate/JPA",
@@ -86,7 +86,7 @@
     },
     {
       "description": "Linguagens",
-      "skills": [
+      "items": [
         "Java (+Scala e Groovy)",
         "Python",
         "JavaScript (+TypeScript)",

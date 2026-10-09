@@ -85,19 +85,19 @@
         width: 11%;
     }
 
-    #skills td {
+    #soft_skills td {
         padding: 5%;
     }
 
-    #technical_proficiencies > table {
+    #hard_skills > table {
         padding: 0% 0% 10% 0%;
     }
 
-    .technical-proficiencies-description {
+    .hard-skills-description {
         margin-top: 3%;
     }
 
-    .technical-proficiencies-skills {
+    .hard-skills {
         font-size: 65%;
     }
 
