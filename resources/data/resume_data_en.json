@@ -98,15 +98,15 @@
       ]
     }
   ],
-  "career_goal": "To be able to work for an encouraging and stable company that will assist me in developing, improving and obtaining the necessary skills in order to become the best professional possible.",
+  "career_goal": "To work for a company that values professional development and innovation, contributing my skills to generate business value, develop efficient solutions, and deliver consistent results while continuously expanding my knowledge and growing as a professional.",
   "professional_experiences": [
     {
       "company": "iFood",
       "activities" : [
         {
-          "start_date": "03/01/2020",
-          "end_date": "10/05/2026",
-          "office": "Software Engineer (Junior and Mid-level)",
+          "start_date": "01/03/2020",
+          "end_date": "01/10/2026",
+          "office": "Software Engineer Junior and Mid-level",
           "description": "Planning, development, and maintenance of distributed systems, microservices, and BFFs. Support and maintenance of legacy monolithic applications. Development of REST APIs using Java, Spring Boot, Python, Node.js, NestJS, and TypeScript. Integration between services through REST APIs and messaging with Amazon SQS, SNS, RabbitMQ, and Kafka. Data modeling and maintenance of PostgreSQL, MongoDB, Elasticsearch, Redis, and DynamoDB databases (including queries, structural changes, and index creation). Monitoring and analysis of errors, performance, and operational indicators using New Relic, Grafana, Logz.IO, Datadog, and Databricks. Management, maintenance, and integration with AWS infrastructure services. Development and execution of unit, integration, load, end-to-end, and regression tests, as well as application homologation in sandbox environments. Planning and implementation of technical improvements and solutions for business demands, with architectural decisions (ADRs) and technical proposals (RFCs). Use of AI tools, such as Claude Code and Cursor, with various models (depending on the nature of the activity) and applying Spec-Driven Development (SDD) and AI-Driven Development Lifecycle (AI-DLC) methodologies. Collaboration in Agile (Scrum) teams, with task organization and tracking through Kanban and sprint planning and execution."
         }
       ]
@@ -115,14 +115,14 @@
       "company": "Neurotech",
       "activities" : [
         {
-          "start_date": "03/01/2019",
-          "end_date": "03/01/2020",
+          "start_date": "01/03/2019",
+          "end_date": "01/03/2020",
           "office": "Junior Software Analyst",
           "description": "Development and maintenance of web applications, websites, and SOAP/REST services using Java, Spring Boot, JSP/JSTL, HTML, CSS, and JavaScript. Relational data modeling and maintenance of SQL Server, MySQL, and Oracle databases (including queries, structural changes, data migrations, creation of indexes, views, triggers, and functions). Migration of systems from on-premises environments to the Cloud. Management, maintenance, and integration with AWS infrastructure services. Collaboration in Agile (Scrum) teams, with task organization and tracking through Kanban and sprint planning and execution"
         },
         {
-          "start_date": "02/01/2018",
-          "end_date": "03/01/2019",
+          "start_date": "01/02/2018",
+          "end_date": "01/03/2019",
           "office": "Junior Software Analyst - Gateway",
           "description": "System integration with third-party APIs using SOAP/REST with Java. Development of web crawlers for automated data collection and extraction from the internet. Maintenance of MySQL databases (including queries, structural changes, and index creation). Maintenance and integration with AWS infrastructure services. Execution of black-box and load tests. Collaboration in Agile (Scrum) teams, with task organization and tracking through Kanban and sprint planning and execution"
         }
@@ -132,14 +132,14 @@
       "company": "Igreja Assembléia de Deus",
       "activities" : [
         {
-          "start_date": "02/01/2017",
-          "end_date": "02/01/2018",
+          "start_date": "01/02/2017",
+          "end_date": "01/02/2018",
           "office": "Junior Software Developer",
           "description": "Planning, development, and maintenance of ERP systems, web applications, and BI/BAM platforms using HTML, CSS, JavaScript, Java, JSF, and PrimeFaces. Relational data modeling, queries, maintenance and creation of indexes, views, triggers, and functions in SQL Server databases. Creation, generation, and maintenance of reports with Crystal Reports and JasperReports."
         },
         {
-          "start_date": "05/01/2016",
-          "end_date": "01/01/2017",
+          "start_date": "01/05/2016",
+          "end_date": "01/02/2017",
           "office": "Software Developer Internship",
           "description": "Development and maintenance of websites and web applications in an on-premises environment using Java, JSF, PrimeFaces, HTML, CSS, and JavaScript. Data queries and manipulation in SQL Server. Report generation with Crystal Reports and JasperReports."
         }
@@ -149,8 +149,8 @@
       "company": "SYSTI",
       "activities" : [
         {
-          "start_date": "12/01/2014",
-          "end_date": "03/01/2015",
+          "start_date": "01/12/2014",
+          "end_date": "01/03/2015",
           "office": "Software Developer Internship",
           "description": "Development, maintenance, and support of websites and web applications using HTML, CSS, JavaScript, PHP, ASP, and Visual Basic. Queries and data manipulation in SQL Server."
         }
