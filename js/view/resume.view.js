@@ -80,7 +80,7 @@ class ResumeView {
         text += soft_skills.map(skill => `<tr><td>${skill}</td></tr>`).join("");
         text += "</table>";
 
-        document.getElementById("skills").innerHTML = text;
+        document.getElementById("soft_skills").innerHTML = text;
     }
 
     #loadHardSkills(hard_skills) {
@@ -94,13 +94,13 @@ class ResumeView {
 
     #buildHardSkill(hard_skill) {
         let text = `<tr><td class='hard-skill-desc-cell'><div class='hard-skills-description'>${hard_skill.description}</div></td><td><table>`;
-        text += this.#buildSkillsItems(hard_skill.items);
+        text += this.#buildhardSkillItems(hard_skill.items);
         text += "</table></td></tr>";
 
         return text;
     }
 
-    #buildSkillsItems = (items) => items
+    #buildhardSkillItems = (items) => items
         .map(skill => `<tr><td class='hard-skills-cell'><div class='hard-skills'>${skill}</div></td></tr>`)
         .join("");
 
