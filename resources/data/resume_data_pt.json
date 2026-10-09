@@ -5,7 +5,7 @@
     "birth_date": "08/07/1996",
     "phones": ["+55 (81) 9.9534-7756"],
     "emails": ["diegohenrique4222@gmail.com"],
-    "address": "Via Local H. Paulista - PE, Brasil. CEP 53401-085",
+    "address": "Paulista - PE, Brasil. CEP 53401-085",
     "github": "https://github.com/SrDiegoH",
     "linkedin": "https://www.linkedin.com/in/diego-cardoso-011643152"
   },
@@ -105,8 +105,8 @@
       "activities" : [
         {
           "start_date": "01/03/2020",
-          "end_date": "05/10/2026",
-          "office": "Engenheiro de Software (Jr e Pl)",
+          "end_date": "01/10/2026",
+          "office": "Engenheiro de Software Jr e Pl",
           "description": "Planejamento, desenvolvimento e manutenção de sistemas distribuídos, microserviços e BFFs. Suporte e manuntenção de aplicações monolíticas legadas. Desenvolvimento de APIs REST utilizando Java, Spring Boot, Python, Node.js, NestJS e TypeScript. Integração entre serviços por meio de APIs REST e mensageria com Amazon SQS, SNS, RabbitMQ e Kafka. Modelagem de dados e manuntenção de bancos de dados PostgreSQL, MongoDB, Elasticsearch, Redis e DynamoDB (incluindo consultas, alterações estruturais e criação de índices). Monitoramento e análise de erros, desempenho e indicadores operacionais utilizando New Relic, Grafana, Logz.IO, Datadog e Databricks. Gerenciamento, manutenção e integração com serviços de infraestrutura AWS. Desenvolvimento e execução de testes unitários, de integração, de carga, end-to-end e de regressão, além de homologação de aplicações em ambientes Sandbox. Planejamento e implementação de melhorias técnicas e soluções para demandas de negócio, com decisões arquiteturais (ADRs) e propostas técnicas (RFCs). Utilização de ferramentas de IA, como Claude Code e Cursor com diversos modelos (conforme a natureza da atividade) e aplicando as metodologias Spec-Driven Development (SDD) e AI-Driven Development Lifecycle (AI-DLC). Atuação em equipes ágeis (Scrum), com organização e acompanhamento de atividades via Kanban e planejamento e execução de sprints."
         }
       ]
@@ -139,7 +139,7 @@
         },
         {
           "start_date": "01/05/2016",
-          "end_date": "01/01/2017",
+          "end_date": "01/02/2017",
           "office": "Estágio em desenvolvimento de software",
           "description": "Desenvolvimento e manutenção de sites e aplicações web em ambiente on-premises utilizando Java, JSF, PrimeFaces, HTML, CSS e JavaScript. Consultas e manipulação de dados em SQL Server. Geração de relatórios com Crystal Reports e JasperReports."
         }
