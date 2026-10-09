@@ -15,6 +15,7 @@ class ResumeView {
         this.#loadSoftSkills(data.soft_skills);
         this.#loadHardSkills(data.hard_skills);
         this.#loadObjective(data.career_goal);
+        this.#loadSummary(data.summary);
         this.#loadExperiences(data.professional_experiences);
         this.#loadEducationsAndCourses(data);
     }
@@ -109,6 +110,13 @@ class ResumeView {
         text += `<p>${careerGoal}</p>`;
 
         document.getElementById("objective").innerHTML = text;
+    }
+
+    #loadSummary = (summary) => {
+        let text = `<h3>${this.#translate("RESUMO")}</h3>`;
+        text += `<p>${summary}</p>`;
+
+        document.getElementById("summary").innerHTML = text;
     }
 
     #loadExperiences(experiences) {
