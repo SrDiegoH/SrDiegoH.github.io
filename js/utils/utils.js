@@ -2,7 +2,6 @@ const ALL_TAGS = "ALL_TAGS";
 
 const translations = {
     "SOBRE MIM" : "ABOUT ME",
-    "INTERESSES" : "INTERESTS",
     "LÍNGUAS" : "LANGUAGES",
     "HABILIDADES COMPORTAMENTAIS" : "SOFT SKILLS",
     "HABILIDADES TÉCNICAS" : "HARD SKILLS",

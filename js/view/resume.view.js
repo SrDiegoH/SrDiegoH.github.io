@@ -57,27 +57,6 @@ class ResumeView {
         document.getElementById("about_me").innerHTML = text;
     }
 
-    #loadInterests(interests) {
-        let text = `<h3>${this.#translate("INTERESSES")}</h3><table><tr>`;
-
-        let columns = 0;
-
-        for (const interest of interests) {
-            if (columns == AppConfig.INTERESTS_COLUMNS) {
-                text += "</tr><tr>";
-                columns = 0;
-            }
-
-            text += `<td>${interest}</td>`;
-
-            columns++;
-        }
-
-        text += "</tr></table>";
-
-        document.getElementById("interests").innerHTML = text;
-    }
-
     #loadLanguages(languages) {
         let text = `<h3>${this.#translate("LÍNGUAS")}</h3><table>`;
 
@@ -115,13 +94,13 @@ class ResumeView {
 
     #buildHardSkill(hard_skill) {
         let text = `<tr><td class='hard-skill-desc-cell'><div class='hard-skills-description'>${hard_skill.description}</div></td><td><table>`;
-        text += this.#buildSkills(hard_skill.skills);
+        text += this.#buildSkillsItems(hard_skill.items);
         text += "</table></td></tr>";
 
         return text;
     }
 
-    #buildSkills = (skills) => skills
+    #buildSkillsItems = (items) => items
         .map(skill => `<tr><td class='hard-skills-cell'><div class='hard-skills'>${skill}</div></td></tr>`)
         .join("");
 
