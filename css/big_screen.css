@@ -105,6 +105,18 @@
         word-break: break-word;
     }
 
+    .hard-skills-description {
+        margin-top: 3%;
+    }
+
+    .hard-skills {
+        font-size: 75%;
+        max-width: 8.6vw;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+
+    /*
     #hard_skills > table {
         padding: 0% 5% 10% 5%;
     }
@@ -119,6 +131,7 @@
         overflow-wrap: break-word;
         word-break: break-word;
     }
+    */
 
     .main-info {
         margin-left: 2%;
@@ -169,8 +182,6 @@
     }
 }
 
-/* Overrides exclusivos para dispositivos touch (mobile/tablet).
-   pointer: coarse = toque (dedo). pointer: fine = mouse (desktop). */
 @media screen and (min-width: 1367px) and (pointer: coarse) {
     .menu-icon {
         bottom: 10%;

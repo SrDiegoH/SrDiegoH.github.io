@@ -84,26 +84,44 @@ class ResumeView {
         document.getElementById("soft_skills").innerHTML = text;
     }
 
+
     #loadHardSkills(hard_skills) {
-        let text = `<h3>${this.#translate("HABILIDADES TÉCNICAS")}</h3><table>`;
-        text += hard_skills.map(skill => this.#buildHardSkill(skill))
-                                       .join("");
-        text += "</table>";
+        let text = `<h3>${this.#translate("HABILIDADES TÉCNICAS")}</h3>`;
+        text += hard_skills.map(skill => this.#buildHardSkill(skill)).join("");
 
         document.getElementById("hard_skills").innerHTML = text;
     }
 
     #buildHardSkill(hard_skill) {
-        let text = `<tr><td class='hard-skill-desc-cell'><div class='hard-skills-description'>${hard_skill.description}</div></td><td><table>`;
-        text += this.#buildhardSkillItems(hard_skill.items);
-        text += "</table></td></tr>";
+        let text = `<h4><div class='hard-skills-description'>${hard_skill.description}</div></h4>`;
+        text += this.#buildHardSkillItems(hard_skill.items);
 
         return text;
     }
 
-    #buildhardSkillItems = (items) => items
-        .map(skill => `<tr><td class='hard-skills-cell'><div class='hard-skills'>${skill}</div></td></tr>`)
+    #buildHardSkillItems = (items) => items
+        .map(skill => `<h5><div class='hard-skills'>${skill}</div></h5>`)
         .join("");
+
+    // #loadHardSkills(hard_skills) {
+    //     let text = `<h3>${this.#translate("HABILIDADES TÉCNICAS")}</h3><table>`;
+    //     text += hard_skills.map(skill => this.#buildHardSkill(skill)).join("");
+    //     text += "</table>";
+
+    //     document.getElementById("hard_skills").innerHTML = text;
+    // }
+
+    // #buildHardSkill(hard_skill) {
+    //     let text = `<tr><td class='hard-skill-desc-cell'><div class='hard-skills-description'>${hard_skill.description}</div></td><td><table>`;
+    //     text += this.#buildHardSkillItems(hard_skill.items);
+    //     text += "</table></td></tr>";
+
+    //     return text;
+    // }
+
+    // #buildHardSkillItems = (items) => items
+    //     .map(skill => `<tr><td class='hard-skills-cell'><div class='hard-skills'>${skill}</div></td></tr>`)
+    //     .join("");
 
     #loadObjective = (careerGoal) => {
         let text = `<h3>${this.#translate("OBJETIVO DE CARREIRA")}</h3>`;
