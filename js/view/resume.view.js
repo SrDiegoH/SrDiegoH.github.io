@@ -101,26 +101,6 @@ class ResumeView {
 
     #buildHardSkillItems = (items) => `<h5><div class='hard-skills-items'>${items.map(skill => skill).join(", ")}</div></h5>`;
 
-    // #loadHardSkills(hard_skills) {
-    //     let text = `<h3>${this.#translate("HABILIDADES TÉCNICAS")}</h3><table>`;
-    //     text += hard_skills.map(skill => this.#buildHardSkill(skill)).join("");
-    //     text += "</table>";
-
-    //     document.getElementById("hard_skills").innerHTML = text;
-    // }
-
-    // #buildHardSkill(hard_skill) {
-    //     let text = `<tr><td class='hard-skill-desc-cell'><div class='hard-skills-description'>${hard_skill.description}</div></td><td><table>`;
-    //     text += this.#buildHardSkillItems(hard_skill.items);
-    //     text += "</table></td></tr>";
-
-    //     return text;
-    // }
-
-    // #buildHardSkillItems = (items) => items
-    //     .map(skill => `<tr><td class='hard-skills-cell'><div class='hard-skills'>${skill}</div></td></tr>`)
-    //     .join("");
-
     #loadObjective = (careerGoal) => {
         let text = `<h3>${this.#translate("OBJETIVO DE CARREIRA")}</h3>`;
         text += `<p>${careerGoal}</p>`;
