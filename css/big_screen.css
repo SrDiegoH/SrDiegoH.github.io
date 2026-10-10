@@ -107,9 +107,11 @@
 
     .hard-skills-description {
         margin-top: 3%;
+        padding: 5%;
     }
 
-    .hard-skills {
+    .hard-skills-items {
+        padding: 5%;
         font-size: 75%;
         max-width: 8.6vw;
         overflow-wrap: break-word;

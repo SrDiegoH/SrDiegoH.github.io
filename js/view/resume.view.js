@@ -99,9 +99,7 @@ class ResumeView {
         return text;
     }
 
-    #buildHardSkillItems = (items) => items
-        .map(skill => `<h5><div class='hard-skills'>${skill}</div></h5>`)
-        .join("");
+    #buildHardSkillItems = (items) => `<h5><div class='hard-skills-items'>${items.map(skill => skill).join(", ")}</div></h5>`;
 
     // #loadHardSkills(hard_skills) {
     //     let text = `<h3>${this.#translate("HABILIDADES TÉCNICAS")}</h3><table>`;
