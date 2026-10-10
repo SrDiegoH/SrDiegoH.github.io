@@ -85,23 +85,9 @@
     }
 
     .hard-skills-items {
-        padding: 1%;
+        padding: 2%;
         font-size: 65%;
-        overflow-wrap: break-word;
-        word-break: break-word;
     }
-
-    /* #hard_skills > table {
-        padding: 0% 0% 10% 0%;
-    }
-
-    .hard-skills-description {
-        margin-top: 3%;
-    }
-
-    .hard-skills {
-        font-size: 65%;
-    } */
 
     .main-info {
         margin-left: 2%;
