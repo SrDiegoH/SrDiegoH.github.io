@@ -105,15 +105,9 @@
         word-break: break-word;
     }
 
-    .hard-skills-description {
-        margin-top: 3%;
-        padding: 5%;
-    }
-
     .hard-skills-items {
-        padding: 5%;
-        font-size: 75%;
-        max-width: 8.6vw;
+        padding: 1%;
+        font-size: 85%;
         overflow-wrap: break-word;
         word-break: break-word;
     }

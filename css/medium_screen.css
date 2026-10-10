@@ -186,7 +186,14 @@
         padding: 5%;
     }
 
-    #hard_skills > table {
+    .hard-skills-items {
+        padding: 1%;
+        font-size: 65%;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+
+    /* #hard_skills > table {
         padding: 0% 0% 10% 0%;
     }
 
@@ -196,7 +203,7 @@
 
     .hard-skills {
         font-size: 65%;
-    }
+    } */
 
     .main-info {
         margin-left: 2%;

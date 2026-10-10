@@ -225,16 +225,11 @@ body {
 
 .hard-skills-description {
     font-weight: bold;
+    text-align: center;
 }
 
-.hard-skill-desc-cell {
-    text-align: right;
-    vertical-align: top;
-}
-
-.hard-skills-cell {
-    text-align: left;
-    vertical-align: top;
+.hard-skills-items {
+    text-align: center;
 }
 
 .main-info {
