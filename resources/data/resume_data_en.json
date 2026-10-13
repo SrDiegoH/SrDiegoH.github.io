@@ -118,7 +118,7 @@
         {
           "start_date": "01/03/2019",
           "end_date": "01/03/2020",
-          "office": "Junior Software Analyst",
+          "office": "Junior Software Analyst - Products",
           "description": "Development and maintenance of web applications, websites, and SOAP/REST services using Java, Spring Boot, JSP/JSTL, HTML, CSS, and JavaScript. Relational data modeling and maintenance of SQL Server, MySQL, and Oracle databases (including queries, structural changes, data migrations, creation of indexes, views, triggers, and functions). Migration of systems from on-premises environments to the Cloud. Management, maintenance, and integration with AWS infrastructure services. Collaboration in Agile (Scrum) teams, with task organization and tracking through Kanban and sprint planning and execution"
         },
         {
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "company": "Igreja Assembléia de Deus",
+      "company": "IEADPE",
       "activities" : [
         {
           "start_date": "01/02/2017",
