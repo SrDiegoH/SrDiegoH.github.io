@@ -17,10 +17,6 @@
     {
       "language": "English",
       "level": 2
-    },
-    {
-      "language": "Spanish",
-      "level": 1
     }
   ],
   "soft_skills": [
@@ -36,24 +32,18 @@
     {
       "description": "AI",
       "items": [
-        "Claude",
+        "Claude Code",
         "Cursor",
-        "Other harnesses",
         "DeepSeek models",
         "GPT models",
         "Opus/Sonnet model",
-        "Other models",
         "SDD",
         "AI-DLC"
       ]
     },
     {
       "description": "Database",
-      "items": ["SQL Server", "MySQL", "Postgre (+Timescale)", "Oracle", "MongoDB", "ElasticSearch", "Redis", "DynamoDB"]
-    },
-    {
-      "description": "Paradigms",
-      "items": ["Procedural", "POO", "Functional", "Others"]
+      "items": ["SQL Server", "MySQL", "Postgre (+Timescale)", "Oracle", "MongoDB", "ElasticSearch", "Redis", "DynamoDB", "DocumentDB", "Elasticache", "Aurora"]
     },
     {
       "description": "Platforms",
@@ -67,21 +57,37 @@
     {
       "description": "FrameWorks and tools",
       "items": [
-        "Spring",
+        "Spring Boot",
         "JUnit",
+        "TestNG",
         "Hibernate/JPA",
+        "JSP/JSTL",
+        "JSF",
+        "PrimeFaces",
+        "Crystal Reports",
+        "JasperReports",
+        "Bootstrap",
         "NestJS",
-        "Express.js",
         "Jest",
-        "Playwright",
         "FastAPI",
         "Flask",
         "Aiohttp",
         "Pytest",
-        "Scrapy",
         "Docker/Kubernetes",
+        "Kafka",
+        "SQS",
+        "SNS",
+        "S3",
+        "Lambda",
+        "Maven",
+        "Gradle",
+        "New Relic",
+        "Grafana",
+        "Logz.io",
+        "Datadog",
         "Git",
-        "SVN"
+        "GitLab CI/CD",
+        "Jenkins"
       ]
     },
     {
@@ -89,17 +95,19 @@
       "items": [
         "Java (+Scala and Groovy)",
         "Python",
-        "JavaScript (+TypeScript)",
+        "JavaScript",
+        "TypeScript",
         "HTML",
         "CSS",
         "PHP",
         "C/C++",
-        "Others"
+        "Visual Basic",
+        "ASP"
       ]
     }
   ],
   "career_goal": "To work for a company that values professional development and innovation, contributing my skills to generate business value, develop efficient solutions, and deliver consistent results while continuously expanding my knowledge and growing as a professional.",
-  "summary": "Software Engineer with over 10 years of experience in the development, modernization, and maintenance of distributed systems, microservices, APIs, and web applications using Java, Python, JavaScript, TypeScript, and SQL. Strong expertise in software architecture, system integration, messaging with Amazon SQS, SNS, RabbitMQ, and Kafka, as well as data modeling and optimization of relational and NoSQL databases, including PostgreSQL, SQL Server, MySQL, Oracle, MongoDB, Elasticsearch, Redis, and DynamoDB. Proficient in frameworks and tools such as Spring Boot, NestJS, Express.js, FastAPI, Flask, Hibernate/JPA, Docker, and Kubernetes, along with AWS infrastructure services and observability platforms such as New Relic, Grafana, Datadog, and Databricks. Experienced in test automation and execution, including unit, integration, load, end-to-end, and regression testing, using tools such as JUnit, Jest, Pytest, and Playwright. Familiar with agile methodologies, including Scrum and Kanban, architectural decision records (ADRs), and technical proposals (RFCs). Experienced in leveraging Artificial Intelligence tools, such as Claude Code and Cursor, with various language models, applying methodologies such as Spec-Driven Development (SDD) and AI-Driven Development Lifecycle (AI-DLC) to optimize the software development lifecycle, increase productivity, and deliver efficient solutions aligned with business needs.",
+  "summary": "Engenheiro de Software com mais de 10 anos de experiência no desenvolvimento e manutenção de sistemas distribuídos, microsserviços, monólitos, APIs e aplicações web, com foco em soluções escaláveis, confiáveis e alinhadas às necessidades do negócio. Sólida experiência em arquitetura de software, desenvolvimento full-stack, integração REST/SOAP, mensageria (SQS, SNS e Kafka), consultas, modelagem e otimização de bancos relacionais e NoSQL, infraestrutura AWS e observabilidade (CloudWatch, Datadog, New Relic e Logz.io). Minhas principais stacks são Java (Spring Boot), Python (Flask, FastAPI) e JavaScript/TypeScript (Node.js, NestJS), além de bancos como PostgreSQL/TimescaleDB, SQL Server, MySQL, Oracle, MongoDB, Elasticsearch e Redis. Utilizo Docker, Kubernetes, GitLab CI/CD, Jenkins e ferramentas de testes automatizados e de desempenho, como JUnit, Jest, Pytest e JMeter. Conhecimento prévio em PHP, ASP, Visual Basic e tecnologias Java para aplicações web e relatórios. Atuação em equipes ageis que utilizam Scrum e Kanban. Elaboração de ADRs e RFCs, documentações de APIs com Swagger/OpenAPI. Utilizo principalmente Claude Code e Cursor com práticas de SDD e AI-DLC para aprimorar a produtividade e a qualidade das entregas. Atualmente, curso MBA em Engenharia de Software com IA na FullCycle para aprofundar meus conhecimentos em IA generativa aplicada ao desenvolvimento de sistemas. Aberto a oportunidades profissionais e novos desafios em engenharia de software preferencialmente CLT. Contato por mensagem no LinkedIn ou WhatsApp. Software Engineer with over 10 years of experience in the development and maintenance of distributed systems, microservices, monolithic applications, APIs, and web applications, focusing on scalable, reliable solutions aligned with business needs. Strong experience in software architecture, full-stack development, REST/SOAP integrations, messaging (Amazon SQS, SNS, and Kafka), querying, modeling, and optimization of relational and NoSQL databases, AWS infrastructure, and observability (CloudWatch, Datadog, New Relic, and Logz.io). My primary tech stacks are Java (Spring Boot), Python (Flask, FastAPI), and JavaScript/TypeScript (Node.js, NestJS), along with databases such as PostgreSQL/TimescaleDB, SQL Server, MySQL, Oracle, MongoDB, Elasticsearch, and Redis. I work with Docker, Kubernetes, GitLab CI/CD, Jenkins, and automated testing and performance testing tools, including JUnit, Jest, Pytest, and JMeter. Previous experience with PHP, ASP, Visual Basic, and Java technologies for web applications and reporting. I have worked within Agile teams using Scrum and Kanban. Creating ADRs and RFCs, and documenting APIs with Swagger/OpenAPI. I frequently utilize Claude Code and Cursor, incorporating SDD and AI-DLC practices to improve productivity and delivery quality. Currently pursuing an MBA in Software Engineering with AI at FullCycle to deepen my expertise in generative AI applied to software development. Open to new career opportunities and challenges in software engineering, preferably full-time, permanent roles. Contact me via LinkedIn message or WhatsApp.",
   "professional_experiences": [
     {
       "company": "iFood",
@@ -108,7 +116,7 @@
           "start_date": "01/03/2020",
           "end_date": "01/10/2026",
           "office": "Software Engineer Junior and Mid-level",
-          "description": "Planning, development, and maintenance of distributed systems, microservices, and BFFs. Support and maintenance of legacy monolithic applications. Development of REST APIs using Java, Spring Boot, Python, Node.js, NestJS, and TypeScript. Integration between services through REST APIs and messaging with Amazon SQS, SNS, RabbitMQ, and Kafka. Data modeling and maintenance of PostgreSQL, MongoDB, Elasticsearch, Redis, and DynamoDB databases (including queries, structural changes, and index creation). Monitoring and analysis of errors, performance, and operational indicators using New Relic, Grafana, Logz.IO, Datadog, and Databricks. Management, maintenance, and integration with AWS infrastructure services. Development and execution of unit, integration, load, end-to-end, and regression tests, as well as application homologation in sandbox environments. Planning and implementation of technical improvements and solutions for business demands, with architectural decisions (ADRs) and technical proposals (RFCs). Use of AI tools, such as Claude Code and Cursor, with various models (depending on the nature of the activity) and applying Spec-Driven Development (SDD) and AI-Driven Development Lifecycle (AI-DLC) methodologies. Collaboration in Agile (Scrum) teams, with task organization and tracking through Kanban and sprint planning and execution."
+          "description": "Planning, development, and maintenance of distributed systems using Java, Spring Boot, and Python. Migration of Python services with scalability and performance limitations to a more efficient Spring Boot-based distributed architecture. Involvement in monolith-to-microservices migrations, promoting better team autonomy. Development BFF with Node.js, NestJS, and TypeScript to centralize front-end functionality and distribute requests to multiple services. Integration through REST APIs and messaging (SQS, SNS, and Kafka) to decouple service workflows. Data modeling and maintenance of databases such as PostgreSQL, MongoDB, Elasticsearch, and Redis. Query optimization and structural changes to improve system performance. Vulnerability remediation focused on OWASP best practices and development of unit, integration, load, end-to-end, and regression tests, as well as homologation in an SBX environment, ensuring quality and security in deliverables. Investigation and resolution of performance issues in critical workflows by optimizing APIs, databases, messaging, libraries, and AWS infrastructure, reducing latency and operating costs. Monitoring and analysis of metrics and errors using New Relic, Grafana, Logz.io, and Datadog. Incident management in production, implementing improvements to increase resilience and maintain operational continuity. Definition of architectural solutions, preparation of ADRs/RFCs, and code reviews. Use of Claude Code and Cursor (selecting the best model for each tasks) for code analysis, test and documentation generation, data-driven decision support, incident resolution, and software development with SDD and AI-DLC, and participation in agile teams using Scrum and Kanban, accelerating deliveries with a focus on quality."
         }
       ]
     },
