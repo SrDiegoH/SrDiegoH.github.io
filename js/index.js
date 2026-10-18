@@ -17,7 +17,7 @@ window.onload = () => {
     document.getElementById("menu_icon")
             .addEventListener("click", (event) => eventController.openAndCloseMenu(event));
 
-    document.getElementById("share_icon")
+    document.getElementById("share_button_icon")
             .addEventListener("click", () => eventController.copyLinkToClipboard());
 
     document.getElementById("translate_button")
