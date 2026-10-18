@@ -26,7 +26,6 @@
         text-shadow: none !important;
     }
 
-    /* Print only the resume, not the floating controls or tag selector. */
     body > :not(#resume) {
         display: none !important;
     }
@@ -54,11 +53,14 @@
         margin: 0 !important;
         padding: 4mm 3mm !important;
         color: #fff !important;
-        background-color: #333 !important;
+        /* Keep the color selected in the color picker (set inline by ResumeView). */
+        background: inherit !important;
         overflow: visible !important;
         align-self: stretch !important;
         font-size: 7.2pt !important;
         overflow-wrap: anywhere;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
     }
 
     #resume > .main-info {
@@ -116,14 +118,16 @@
         font-size: 8.5pt !important;
         line-height: 1.2 !important;
         font-weight: normal !important;
+        text-align: left !important;
         break-after: avoid-page;
     }
 
+    /* Match the desktop layout's justified body copy. */
     .main-info p {
         margin: 0 0 2mm !important;
         font-size: 8.7pt !important;
         line-height: 1.28 !important;
-        text-align: left !important;
+        text-align: justify !important;
         orphans: 3;
         widows: 3;
     }
@@ -152,7 +156,7 @@
         width: 4mm !important;
         max-width: 4mm !important;
         height: auto !important;
-        margin: 0 !important;
+        margin: 0 1mm 0 0 !important;
     }
 
     #about_me a {
@@ -169,23 +173,37 @@
     #languages td,
     #soft_skills td {
         padding: 1mm 0 !important;
-        text-align: left !important;
         vertical-align: top !important;
+    }
+
+    #languages td:first-child {
+        text-align: right !important;
+        padding-right: 1.5mm !important;
+    }
+
+    #languages td:last-child {
+        text-align: left !important;
+    }
+
+    #soft_skills td {
+        text-align: center !important;
+    }
+
+    .hard-skills-description,
+    .hard-skills-items {
+        text-align: center !important;
+        overflow-wrap: anywhere !important;
     }
 
     .hard-skills-description {
         margin: 2mm 0 0 !important;
         font-size: 7.5pt !important;
         line-height: 1.2 !important;
-        text-align: left !important;
-        overflow-wrap: anywhere !important;
     }
 
     .hard-skills-items {
         margin: 1mm 0 2mm !important;
-        padding: 0 !important;
-        text-align: left !important;
-        overflow-wrap: anywhere !important;
+        padding: 2% !important;
     }
 
     .line-separator {
@@ -194,7 +212,6 @@
         break-after: avoid-page;
     }
 
-    /* Keep headings with the content that follows them. */
     #objective,
     #summary,
     #experiences,
