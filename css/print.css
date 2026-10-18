@@ -1,0 +1,245 @@
+@page {
+    size: A4 portrait;
+    margin: 9mm;
+}
+
+@media print {
+    html,
+    body {
+        width: 100% !important;
+        min-width: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: #fff !important;
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-size: 9pt;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box !important;
+        animation: none !important;
+        transition: none !important;
+        text-shadow: none !important;
+    }
+
+    /* Print only the resume, not the floating controls or tag selector. */
+    body > :not(#resume) {
+        display: none !important;
+    }
+
+    #resume {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        gap: 0 !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+        background: #fff !important;
+    }
+
+    #resume > .lateral-info {
+        display: block !important;
+        flex: 0 0 30% !important;
+        width: 30% !important;
+        min-width: 0 !important;
+        max-width: 30% !important;
+        margin: 0 !important;
+        padding: 4mm 3mm !important;
+        color: #fff !important;
+        background-color: #333 !important;
+        overflow: visible !important;
+        align-self: stretch !important;
+        font-size: 7.2pt !important;
+        overflow-wrap: anywhere;
+    }
+
+    #resume > .main-info {
+        display: block !important;
+        flex: 1 1 70% !important;
+        width: 70% !important;
+        min-width: 0 !important;
+        max-width: 70% !important;
+        margin: 0 !important;
+        padding: 3mm 0 3mm 5mm !important;
+        overflow: visible !important;
+        font-size: 9pt !important;
+    }
+
+    .profile-picture {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        margin: 0 auto 3mm !important;
+        padding: 0 !important;
+        object-fit: contain;
+    }
+
+    .lateral-info h3 {
+        margin: 3mm 0 2mm !important;
+        font-size: 9pt !important;
+        text-align: center !important;
+        break-after: avoid-page;
+    }
+
+    .main-info h2 {
+        margin: 0 0 1mm !important;
+        font-size: 19pt !important;
+        line-height: 1.15 !important;
+        text-align: center !important;
+    }
+
+    .main-info h3 {
+        margin: 2.5mm 0 1.5mm !important;
+        font-size: 10.5pt !important;
+        line-height: 1.2 !important;
+        break-after: avoid-page;
+    }
+
+    .main-info h4 {
+        margin: 2.5mm 0 1mm !important;
+        font-size: 9.5pt !important;
+        line-height: 1.2 !important;
+        break-after: avoid-page;
+    }
+
+    .main-info h5 {
+        margin: 1.5mm 0 1mm !important;
+        font-size: 8.5pt !important;
+        line-height: 1.2 !important;
+        font-weight: normal !important;
+        break-after: avoid-page;
+    }
+
+    .main-info p {
+        margin: 0 0 2mm !important;
+        font-size: 8.7pt !important;
+        line-height: 1.28 !important;
+        text-align: left !important;
+        orphans: 3;
+        widows: 3;
+    }
+
+    .lateral-info p,
+    .lateral-info label,
+    .lateral-info td,
+    .hard-skills-items {
+        font-size: 7.2pt !important;
+        line-height: 1.25 !important;
+    }
+
+    #about_me label {
+        display: flex !important;
+        align-items: flex-start !important;
+        gap: 1.5mm !important;
+        max-width: 100% !important;
+        margin: 0 0 1.5mm !important;
+        padding: 0 !important;
+        overflow-wrap: anywhere !important;
+        word-break: normal !important;
+    }
+
+    #about_me img {
+        flex: 0 0 4mm !important;
+        width: 4mm !important;
+        max-width: 4mm !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
+
+    #about_me a {
+        color: inherit !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    #languages table,
+    #soft_skills table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+    }
+
+    #languages td,
+    #soft_skills td {
+        padding: 1mm 0 !important;
+        text-align: left !important;
+        vertical-align: top !important;
+    }
+
+    .hard-skills-description {
+        margin: 2mm 0 0 !important;
+        font-size: 7.5pt !important;
+        line-height: 1.2 !important;
+        text-align: left !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .hard-skills-items {
+        margin: 1mm 0 2mm !important;
+        padding: 0 !important;
+        text-align: left !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .line-separator {
+        height: 1px !important;
+        margin: 2mm 0 !important;
+        break-after: avoid-page;
+    }
+
+    /* Keep headings with the content that follows them. */
+    #objective,
+    #summary,
+    #experiences,
+    #education,
+    #about_me,
+    #languages,
+    #hard_skills,
+    #soft_skills {
+        min-width: 0 !important;
+        overflow: visible !important;
+    }
+
+    #title,
+    #objective h3,
+    #summary h3,
+    #experiences h3,
+    #education h3,
+    #experiences h4,
+    #experiences h5,
+    #education h4,
+    #education h5 {
+        break-after: avoid-page;
+        page-break-after: avoid;
+    }
+
+    #experiences p,
+    #education p,
+    #summary p,
+    #objective p,
+    #languages tr,
+    #soft_skills tr {
+        break-inside: avoid-page;
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    a {
+        overflow-wrap: anywhere;
+    }
+
+    .dynamic-color-background {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
