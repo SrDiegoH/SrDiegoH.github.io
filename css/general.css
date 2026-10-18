@@ -223,16 +223,6 @@ body {
     text-align: left;
 }
 
-/*
-#languages td {
-    text-align: center;
-}
-
-#languages img {
-    vertical-align: text-bottom;
-}
-*/
-
 #soft_skills td {
     text-align: center;
 }
@@ -269,7 +259,11 @@ body {
     height: 2px;
 }
 
-#objective h3, #summary h3, #experiences h3, #experiences h4, #education h4, #education h3 {
+#objective h3, #summary h3, #experiences h3, #education h3 {
+    text-align: left;
+}
+
+#experiences h4, #education h4 {
     text-align: left;
 }
 
