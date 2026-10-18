@@ -91,27 +91,7 @@ class EventController {
     }
 
     downloadResume(){
-        const lateralInfo = document.querySelectorAll(".lateral-info")[0];
-        const lateralInfoWidth = lateralInfo.style.width;
-        const lateralInfoMargin = lateralInfo.style.margin;
-        lateralInfo.style.width = "30%";
-        lateralInfo.style.margin = 0;
-
-        const mainInfo = document.querySelectorAll(".main-info")[0];
-        const mainInfoMarginRight = mainInfo.style.marginRight;
-        mainInfo.style.marginRight = "2%";
-
-        const resumeHTML = document.getElementById("resume");
-
-        const fileName = `${this.#translate("Currículo")}_${this.#pageLoaderService.getResumeName()}.pdf`;
-
-        html2pdf().set({ filename: fileName }).from(resumeHTML).save();
-
-        setTimeout(() => {
-            lateralInfo.style.width = lateralInfoWidth;
-            lateralInfo.style.margin = lateralInfoMargin;
-            mainInfo.style.marginRight = mainInfoMarginRight;
-        }, 1);
+        window.print();
     }
 
     colorPick(event){
