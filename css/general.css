@@ -84,7 +84,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    /* position: fixed; */
+    position: fixed;
 }
 
 .menu .small-icon,
@@ -109,9 +109,9 @@ body {
     padding: 0;
 }
 
-/* .menu label, .menu img {
+.menu label, .menu img {
     position: relative;
-} */
+}
 
 .tags {
     visibility: hidden;

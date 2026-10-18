@@ -83,8 +83,7 @@ class EventController {
     #getAllCheckedTags = () => this.#tagService.getAllCheckedTags();
 
     #clipboardFallback(icon, message, color){
-        // icon.style.display = "inline";
-        icon.style.display = "block";
+        icon.style.display = "inline";
         icon.innerHTML = this.#translate(message);
         icon.style.background = color;
 
