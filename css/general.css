@@ -211,6 +211,19 @@ body {
     text-decoration: underline; 
 }
 
+#languages table {
+    width: 85%;
+}
+
+#languages table td:first-child {
+    text-align: right;
+}
+
+#languages table td:last-child {
+    text-align: left;
+}
+
+/*
 #languages td {
     text-align: center;
 }
@@ -218,6 +231,7 @@ body {
 #languages img {
     vertical-align: text-bottom;
 }
+*/
 
 #soft_skills td {
     text-align: center;
