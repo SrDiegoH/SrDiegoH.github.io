@@ -127,7 +127,7 @@ class ResumeView {
             const startDate = convertDateToMonthAndYear(activity.start_date);
             const endDate = validateAndReturnDate(activity.end_date, this.#translate("atualmente"));
 
-            return `<h5>${activity.office}  (${startDate} - ${endDate})</h5>${this.#buildDescriptions(activity.descriptions)}`;
+            return `<h5>${activity.office}  (${startDate} - ${endDate})</h5>${this.#buildDescriptions(activity.descriptions)}</br>`;
         })
         .join("");
 

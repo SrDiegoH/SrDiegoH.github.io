@@ -75,7 +75,7 @@
 
     #experiences h4, #education h4 {
         font-size: 75%;
-        margin-top: 6%;
+        /* margin-top: 6%; */
     }
 
     #experiences h5, #education h5 {
@@ -86,7 +86,7 @@
     #experiences p {
         font-size: 70%;
         margin-top: 2%;
-        margin-bottom: 4%;
+        /* margin-bottom: 4%; */
     }
 
     #education p {
@@ -222,9 +222,9 @@
         font-size: 84%;
     }
 
-    #experiences h4 {
+    /* #experiences h4 {
         margin-top: 6%;
-    }
+    } */
 
     #experiences h5, #education h5 {
         margin-top: 2%;
