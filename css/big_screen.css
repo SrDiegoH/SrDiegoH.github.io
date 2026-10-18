@@ -149,7 +149,6 @@
     #experiences p {
         font-size: 87%;
         margin-top: 2%;
-        /* margin-bottom: 5%; */
     }
 
     #education p {
@@ -170,6 +169,10 @@
         right: 5%;
         display: flex;
         flex-direction: column;
+    }
+
+    .menu-icon, .menu {
+        position: fixed;
     }
 
     .lateral-info {

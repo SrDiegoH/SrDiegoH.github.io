@@ -65,7 +65,7 @@ class EventController {
         navigator.clipboard
                  .writeText(urlWithParameters)
                  .then(() => this.#clipboardFallback(shareIconTooltip, "Copiado!", AppConfig.DEFAULT_COLOR),
-                       () => this.#clipboardFallback(shareIconTooltip, "Erro!", "#F00000"));
+                       () => this.#clipboardFallback(shareIconTooltip, "Erro!", AppConfig.ERROR_COLOR));
     }
 
     #buildUrlWithParameters(baseUrl){
@@ -83,7 +83,8 @@ class EventController {
     #getAllCheckedTags = () => this.#tagService.getAllCheckedTags();
 
     #clipboardFallback(icon, message, color){
-        icon.style.display = "inline"
+        // icon.style.display = "inline";
+        icon.style.display = "block";
         icon.innerHTML = this.#translate(message);
         icon.style.background = color;
 
