@@ -103,7 +103,7 @@ class EventController {
 
         const resumeHTML = document.getElementById("resume");
 
-        const fileName = `${this.#pageLoaderService.getResumeName()} - ${this.#translate("Currículo")}.pdf`;
+        const fileName = `${this.#translate("Currículo")}_${this.#pageLoaderService.getResumeName()}.pdf`;
 
         html2pdf().set({ filename: fileName }).from(resumeHTML).save();
 

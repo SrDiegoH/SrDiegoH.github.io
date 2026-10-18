@@ -12,8 +12,8 @@ class ResumeView {
         this.#loadTitle(data);
         this.#loadAboutMe(data.about_me);
         this.#loadLanguages(data.languages);
-        this.#loadSoftSkills(data.soft_skills);
         this.#loadHardSkills(data.hard_skills);
+        this.#loadSoftSkills(data.soft_skills);
         this.#loadObjective(data.career_goal);
         this.#loadSummary(data.summary);
         this.#loadExperiences(data.professional_experiences);
@@ -62,28 +62,13 @@ class ResumeView {
         let text = `<h3>${this.#translate("LÍNGUAS")}</h3><table>`;
 
         for (const languageInfos of languages) {
-            text += `<tr><td>${languageInfos.language}</td><td>`;
-            text += this.#buildStarLevel(languageInfos.level);
-            text += `</td></tr>`;
+            text += `<tr><td><strong>${languageInfos.language}:</strong></td><td>${languageInfos.level}</td></tr>`;
         }
 
         text += "</table>";
 
         document.getElementById("languages").innerHTML = text;
     }
-
-    #buildStarLevel = (level) => [0, 1, 2]
-            .map(i => `<img src='./resources/assets/star_${i <= level - 1 ? "yellow" : "white"}.png'/>`)
-            .join("");
-
-    #loadSoftSkills(soft_skills) {
-        let text = `<h3>${this.#translate("HABILIDADES COMPORTAMENTAIS")}</h3><table>`;
-        text += soft_skills.map(skill => `<tr><td>${skill}</td></tr>`).join("");
-        text += "</table>";
-
-        document.getElementById("soft_skills").innerHTML = text;
-    }
-
 
     #loadHardSkills(hard_skills) {
         let text = `<h3>${this.#translate("HABILIDADES TÉCNICAS")}</h3>`;
@@ -101,6 +86,14 @@ class ResumeView {
 
     #buildHardSkillItems = (items) => `<h5><div class='hard-skills-items'>${items.map(skill => skill).join(", ")}</div></h5>`;
 
+    #loadSoftSkills(soft_skills) {
+        let text = `<h3>${this.#translate("HABILIDADES COMPORTAMENTAIS")}</h3><table>`;
+        text += soft_skills.map(skill => `<tr><td>${skill}</td></tr>`).join("");
+        text += "</table>";
+
+        document.getElementById("soft_skills").innerHTML = text;
+    }
+
     #loadObjective = (careerGoal) => {
         let text = `<h3>${this.#translate("OBJETIVO DE CARREIRA")}</h3>`;
         text += `<p>${careerGoal}</p>`;
@@ -110,7 +103,7 @@ class ResumeView {
 
     #loadSummary = (summary) => {
         let text = `<h3>${this.#translate("RESUMO")}</h3>`;
-        text += `<p>${summary}</p>`;
+        text += summary.map(paragraph => `<p>${paragraph}</p>`).join("");
 
         document.getElementById("summary").innerHTML = text;
     }
@@ -134,8 +127,12 @@ class ResumeView {
             const startDate = convertDateToMonthAndYear(activity.start_date);
             const endDate = validateAndReturnDate(activity.end_date, this.#translate("atualmente"));
 
-            return `<h5>${activity.office}  (${startDate} - ${endDate})</h5><p>${activity.description}</p>`;
+            return `<h5>${activity.office}  (${startDate} - ${endDate})</h5>${this.#buildDescriptions(activity.description)}`;
         })
+        .join("");
+
+    #buildDescriptions = (descriptions) => descriptions
+        .map(description => `<p>${description}</p>`)
         .join("");
 
     #loadEducationsAndCourses(data) {

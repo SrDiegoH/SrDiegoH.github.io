@@ -7,16 +7,16 @@
     "emails": ["diegohenrique4222@gmail.com"],
     "address": "Paulista - PE, Brazil. Zip Code 53401-085",
     "github": "https://github.com/SrDiegoH",
-    "linkedin": "https://www.linkedin.com/in/diego-cardoso-011643152"
+    "linkedin": "https://www.linkedin.com/in/diegohcazevedo"
   },
   "languages": [
     {
       "language": "Portuguese",
-      "level": 3
+      "level": "Fluent/Native"
     },
     {
       "language": "English",
-      "level": 2
+      "level": "Advanced"
     }
   ],
   "soft_skills": [
@@ -43,7 +43,19 @@
     },
     {
       "description": "Database",
-      "items": ["SQL Server", "MySQL", "Postgre (+Timescale)", "Oracle", "MongoDB", "ElasticSearch", "Redis", "DynamoDB", "DocumentDB", "Elasticache", "Aurora"]
+      "items": [
+        "SQL Server",
+        "MySQL",
+        "PostgreSQL (+Timescale)",
+        "Oracle",
+        "MongoDB",
+        "ElasticSearch",
+        "Redis",
+        "DynamoDB",
+        "DocumentDB",
+        "Elasticache",
+        "Aurora"
+      ]
     },
     {
       "description": "Platforms",
@@ -63,11 +75,14 @@
         "Hibernate/JPA",
         "JSP/JSTL",
         "JSF",
+        "JMeter",
         "PrimeFaces",
         "Crystal Reports",
         "JasperReports",
         "Bootstrap",
         "NestJS",
+        "Ajax",
+        "JQuery",
         "Jest",
         "FastAPI",
         "Flask",
@@ -107,7 +122,13 @@
     }
   ],
   "career_goal": "To work for a company that values professional development and innovation, contributing my skills to generate business value, develop efficient solutions, and deliver consistent results while continuously expanding my knowledge and growing as a professional.",
-  "summary": "Engenheiro de Software com mais de 10 anos de experiência no desenvolvimento e manutenção de sistemas distribuídos, microsserviços, monólitos, APIs e aplicações web, com foco em soluções escaláveis, confiáveis e alinhadas às necessidades do negócio. Sólida experiência em arquitetura de software, desenvolvimento full-stack, integração REST/SOAP, mensageria (SQS, SNS e Kafka), consultas, modelagem e otimização de bancos relacionais e NoSQL, infraestrutura AWS e observabilidade (CloudWatch, Datadog, New Relic e Logz.io). Minhas principais stacks são Java (Spring Boot), Python (Flask, FastAPI) e JavaScript/TypeScript (Node.js, NestJS), além de bancos como PostgreSQL/TimescaleDB, SQL Server, MySQL, Oracle, MongoDB, Elasticsearch e Redis. Utilizo Docker, Kubernetes, GitLab CI/CD, Jenkins e ferramentas de testes automatizados e de desempenho, como JUnit, Jest, Pytest e JMeter. Conhecimento prévio em PHP, ASP, Visual Basic e tecnologias Java para aplicações web e relatórios. Atuação em equipes ageis que utilizam Scrum e Kanban. Elaboração de ADRs e RFCs, documentações de APIs com Swagger/OpenAPI. Utilizo principalmente Claude Code e Cursor com práticas de SDD e AI-DLC para aprimorar a produtividade e a qualidade das entregas. Atualmente, curso MBA em Engenharia de Software com IA na FullCycle para aprofundar meus conhecimentos em IA generativa aplicada ao desenvolvimento de sistemas. Aberto a oportunidades profissionais e novos desafios em engenharia de software preferencialmente CLT. Contato por mensagem no LinkedIn ou WhatsApp. Software Engineer with over 10 years of experience in the development and maintenance of distributed systems, microservices, monolithic applications, APIs, and web applications, focusing on scalable, reliable solutions aligned with business needs. Strong experience in software architecture, full-stack development, REST/SOAP integrations, messaging (Amazon SQS, SNS, and Kafka), querying, modeling, and optimization of relational and NoSQL databases, AWS infrastructure, and observability (CloudWatch, Datadog, New Relic, and Logz.io). My primary tech stacks are Java (Spring Boot), Python (Flask, FastAPI), and JavaScript/TypeScript (Node.js, NestJS), along with databases such as PostgreSQL/TimescaleDB, SQL Server, MySQL, Oracle, MongoDB, Elasticsearch, and Redis. I work with Docker, Kubernetes, GitLab CI/CD, Jenkins, and automated testing and performance testing tools, including JUnit, Jest, Pytest, and JMeter. Previous experience with PHP, ASP, Visual Basic, and Java technologies for web applications and reporting. I have worked within Agile teams using Scrum and Kanban. Creating ADRs and RFCs, and documenting APIs with Swagger/OpenAPI. I frequently utilize Claude Code and Cursor, incorporating SDD and AI-DLC practices to improve productivity and delivery quality. Currently pursuing an MBA in Software Engineering with AI at FullCycle to deepen my expertise in generative AI applied to software development. Open to new career opportunities and challenges in software engineering, preferably full-time, permanent roles. Contact me via LinkedIn message or WhatsApp.",
+  "summary": [
+    "Software Engineer with over 10 years of experience in the development and maintenance of distributed systems, microservices, monolithic applications, APIs, and web applications, focusing on scalable, reliable solutions aligned with business needs.",
+    "Strong experience in software architecture, full-stack development, REST/SOAP integrations, messaging (Amazon SQS, SNS, and Kafka), querying, modeling, and optimization of relational and NoSQL databases, AWS infrastructure, and observability (CloudWatch, Datadog, New Relic, and Logz.io).",
+    "My primary tech stacks are Java (Spring Boot), Python (Flask, FastAPI), and JavaScript/TypeScript (Node.js, NestJS), along with databases such as PostgreSQL/TimescaleDB, SQL Server, MySQL, Oracle, MongoDB, Elasticsearch, and Redis. I work with Docker, Kubernetes, GitLab CI/CD, Jenkins, and automated testing and performance testing tools, including JUnit, Jest, Pytest, and JMeter. Previous experience with PHP, ASP, Visual Basic, and Java technologies for web applications and reporting.",
+    "I have worked within Agile teams using Scrum and Kanban. Creating ADRs and RFCs, and documenting APIs with Swagger/OpenAPI. I frequently utilize Claude Code and Cursor, incorporating SDD and AI-DLC practices to improve productivity and delivery quality. Currently pursuing an MBA in Software Engineering with AI at FullCycle to deepen my expertise in generative AI applied to software development.",
+    "Open to new career opportunities and challenges in software engineering, preferably full-time, permanent roles. Contact me via LinkedIn message or WhatsApp."
+  ],
   "professional_experiences": [
     {
       "company": "iFood",
@@ -115,8 +136,15 @@
         {
           "start_date": "01/03/2020",
           "end_date": "01/10/2026",
-          "office": "Software Engineer Junior and Mid-level",
-          "description": "Planning, development, and maintenance of distributed systems using Java, Spring Boot, and Python. Migration of Python services with scalability and performance limitations to a more efficient Spring Boot-based distributed architecture. Involvement in monolith-to-microservices migrations, promoting better team autonomy. Development BFF with Node.js, NestJS, and TypeScript to centralize front-end functionality and distribute requests to multiple services. Integration through REST APIs and messaging (SQS, SNS, and Kafka) to decouple service workflows. Data modeling and maintenance of databases such as PostgreSQL, MongoDB, Elasticsearch, and Redis. Query optimization and structural changes to improve system performance. Vulnerability remediation focused on OWASP best practices and development of unit, integration, load, end-to-end, and regression tests, as well as homologation in an SBX environment, ensuring quality and security in deliverables. Investigation and resolution of performance issues in critical workflows by optimizing APIs, databases, messaging, libraries, and AWS infrastructure, reducing latency and operating costs. Monitoring and analysis of metrics and errors using New Relic, Grafana, Logz.io, and Datadog. Incident management in production, implementing improvements to increase resilience and maintain operational continuity. Definition of architectural solutions, preparation of ADRs/RFCs, and code reviews. Use of Claude Code and Cursor (selecting the best model for each tasks) for code analysis, test and documentation generation, data-driven decision support, incident resolution, and software development with SDD and AI-DLC, and participation in agile teams using Scrum and Kanban, accelerating deliveries with a focus on quality."
+          "office": "Software Engineer",
+          "descriptions": [
+            "- Development and modernization of systems: Planning, development, and maintenance of distributed systems using Java, Spring Boot, and Python. Migration of Python services with scalability and performance limitations to a more efficient Spring Boot-based distributed architecture. Involvement in monolith-to-microservices migrations, promoting better team autonomy. Development BFF with Node.js, NestJS, and TypeScript to centralize front-end functionality and distribute requests to multiple services. Integration through REST APIs and messaging (SQS, SNS, and Kafka) to decouple service workflows.",
+            "- Databases and modeling: Data modeling and maintenance of databases such as PostgreSQL, MongoDB, Elasticsearch, and Redis. Query optimization and structural changes to improve system performance.",
+            "- Security and quality: Vulnerability remediation focused on OWASP best practices and development of unit, integration, load, end-to-end, and regression tests, as well as homologation in an SBX environment, ensuring quality and security in deliverables.",
+            "- Performance and cost optimization: Investigation and resolution of performance issues in critical workflows by optimizing APIs, databases, messaging, libraries, and AWS infrastructure, reducing latency and operating costs.",
+            "- Observability, resilience, and incidents: Monitoring and analysis of metrics and errors using New Relic, Grafana, Logz.io, and Datadog. Incident management in production, implementing improvements to increase resilience and maintain operational continuity.",
+            "- Technical decisions, AI, and agile methodologies: Definition of architectural solutions, preparation of ADRs/RFCs, and code reviews. Use of Claude Code and Cursor (selecting the best model for each tasks) for code analysis, test and documentation generation, data-driven decision support, incident resolution, and software development with SDD and AI-DLC, and participation in agile teams using Scrum and Kanban, accelerating deliveries with a focus on quality."
+          ]
         }
       ]
     },
@@ -127,13 +155,17 @@
           "start_date": "01/03/2019",
           "end_date": "01/03/2020",
           "office": "Junior Software Analyst - Products",
-          "description": "Development and maintenance of web applications, websites, and SOAP/REST services using Java, Spring Boot, JSP/JSTL, HTML, CSS, and JavaScript. Relational data modeling and maintenance of SQL Server, MySQL, and Oracle databases (including queries, structural changes, data migrations, creation of indexes, views, triggers, and functions). Migration of systems from on-premises environments to the Cloud. Management, maintenance, and integration with AWS infrastructure services. Collaboration in Agile (Scrum) teams, with task organization and tracking through Kanban and sprint planning and execution"
+          "descriptions": [
+            "Development and maintenance of web applications, websites, and SOAP/REST services using Java, Spring Boot, JSP/JSTL, HTML, CSS, and JavaScript. Relational data modeling and maintenance of SQL Server, MySQL, and Oracle databases (including queries, structural changes, data migrations, creation of indexes, views, triggers, and functions). Migration of systems from on-premises environments to the Cloud. Management, maintenance, and integration with AWS infrastructure services. Collaboration in Agile (Scrum) teams, with task organization and tracking through Kanban and sprint planning and execution"
+          ]
         },
         {
           "start_date": "01/02/2018",
           "end_date": "01/03/2019",
           "office": "Junior Software Analyst - Gateway",
-          "description": "System integration with third-party APIs using SOAP/REST with Java. Development of web crawlers for automated data collection and extraction from the internet. Maintenance of MySQL databases (including queries, structural changes, and index creation). Maintenance and integration with AWS infrastructure services. Execution of black-box and load tests. Collaboration in Agile (Scrum) teams, with task organization and tracking through Kanban and sprint planning and execution"
+          "descriptions": [
+            "System integration with third-party APIs using SOAP/REST with Java. Development of web crawlers for automated data collection and extraction from the internet. Maintenance of MySQL databases (including queries, structural changes, and index creation). Maintenance and integration with AWS infrastructure services. Execution of black-box and load tests. Collaboration in Agile (Scrum) teams, with task organization and tracking through Kanban and sprint planning and execution"
+          ]
         }
       ]
     },
@@ -144,13 +176,17 @@
           "start_date": "01/02/2017",
           "end_date": "01/02/2018",
           "office": "Junior Software Developer",
-          "description": "Planning, development, and maintenance of ERP systems, web applications, and BI/BAM platforms using HTML, CSS, JavaScript, Java, JSF, and PrimeFaces. Relational data modeling, queries, maintenance and creation of indexes, views, triggers, and functions in SQL Server databases. Creation, generation, and maintenance of reports with Crystal Reports and JasperReports."
+          "descriptions": [
+            "Planning, development, and maintenance of ERP systems, web applications, and BI/BAM platforms using HTML, CSS, JavaScript, Java, JSF, and PrimeFaces. Relational data modeling, queries, maintenance and creation of indexes, views, triggers, and functions in SQL Server databases. Creation, generation, and maintenance of reports with Crystal Reports and JasperReports."
+          ]
         },
         {
           "start_date": "01/05/2016",
           "end_date": "01/02/2017",
           "office": "Software Developer Internship",
-          "description": "Development and maintenance of websites and web applications in an on-premises environment using Java, JSF, PrimeFaces, HTML, CSS, and JavaScript. Data queries and manipulation in SQL Server. Report generation with Crystal Reports and JasperReports."
+          "descriptions": [
+            "Development and maintenance of websites and web applications in an on-premises environment using Java, JSF, PrimeFaces, HTML, CSS, and JavaScript. Data queries and manipulation in SQL Server. Report generation with Crystal Reports and JasperReports."
+          ]
         }
       ]
     },
@@ -161,7 +197,9 @@
           "start_date": "01/12/2014",
           "end_date": "01/03/2015",
           "office": "Software Developer Internship",
-          "description": "Development, maintenance, and support of websites and web applications using HTML, CSS, JavaScript, PHP, ASP, and Visual Basic. Queries and data manipulation in SQL Server."
+          "descriptions": [
+            "Development, maintenance, and support of websites and web applications using HTML, CSS, JavaScript, PHP, ASP, and Visual Basic. Queries and data manipulation in SQL Server."
+          ]
         }
       ]
     }
