@@ -53,8 +53,7 @@
         margin: 0 !important;
         padding: 4mm 3mm !important;
         color: #fff !important;
-        /* Keep the color selected in the color picker (set inline by ResumeView). */
-        background: inherit !important;
+        /* ResumeView sets the selected/default color inline; do not override it here. */
         overflow: visible !important;
         align-self: stretch !important;
         font-size: 7.2pt !important;
