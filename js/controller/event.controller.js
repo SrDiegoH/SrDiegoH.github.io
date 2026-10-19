@@ -94,7 +94,6 @@ class EventController {
         const originalTitle = document.title;
         const documentName = `${this.#translate("Currículo")} ${this.#pageLoaderService.getResumeName()}`;
 
-        // The browser uses the document title as the default "Save as PDF" filename.
         document.title = documentName;
 
         window.addEventListener("afterprint", () => {

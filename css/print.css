@@ -53,7 +53,6 @@
         margin: 0 !important;
         padding: 4mm 3mm !important;
         color: #fff !important;
-        /* ResumeView sets the selected/default color inline; do not override it here. */
         overflow: visible !important;
         align-self: stretch !important;
         font-size: 7.2pt !important;
@@ -121,7 +120,6 @@
         break-after: avoid-page;
     }
 
-    /* Match the desktop layout's justified body copy. */
     .main-info p {
         margin: 0 0 2mm !important;
         font-size: 8.7pt !important;
